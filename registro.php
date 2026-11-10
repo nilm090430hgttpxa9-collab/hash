@@ -2,7 +2,7 @@
 <?php
 session_start();
 
-// Crear arreglo de usuarios
+// Arreglo de usuarios
 if (!isset($_SESSION['usuarios'])) {
     $_SESSION['usuarios'] = array();
 }

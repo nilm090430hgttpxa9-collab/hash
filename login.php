@@ -11,7 +11,6 @@ if (isset($_POST['entrar'])) {
 
     $encontrado = false;
 
-    // Buscar usuario registrado
     foreach ($_SESSION['usuarios'] as $u) {
 
         if ($u['usuario'] == $usuario) {
